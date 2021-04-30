@@ -2,11 +2,13 @@ body{
     background-color: rgb(14, 14, 14);
 }
 img{
+    size: 10px;
     margin: center;
     border: black;
     border-radius: 2px;
 }
 img #quote{
+    size: 5px;
     margin-left: 2px;
 }
 em{
