@@ -1,0 +1,18 @@
+body{
+    background-color: rgba(14, 14, 14, 0.719);
+}
+img{
+    margin: center;
+    border: black;
+    border-radius: 2px;
+}
+img #quote{
+    margin-left: 2px;
+}
+em{
+    font-size: 40px;
+    color:rgb(92, 92, 92)
+}
+em #discours{
+    font-size: 20px;
+}

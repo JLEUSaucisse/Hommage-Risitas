@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+        <title>Hommage à Risitas</title>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Risitas nous a quitté trop tot</h1>
+            <h5>Il nous manquera</h5>
+            <br/>
+            <img src="images/risitasbye.png" alt="risitasbye">
+        </div>
+        <div id="texte">
+            <p>
+                <img id="quote" src="images/guillements.jpg" alt="guillemets">
+                <em>
+                    Risitas était un khey, il nous a aidé a traverser des moments durs a travers internet
+                </em>
+                <em id="discours">
+                    C'est avec grande tristesse et mélancolie que je dois, avec les pretres de ce serveur, célébrer le grand El Risitas, gloire, paix, et prosperité a son ame funebre partie trop tot...
+                    Juan Joya Borya, bien plus connu sous le nom mythique et exemplaire de Risitas, est donc décédé, il nous doit de faire vivre sa mémoires jusqu'aux limbes des temps.
+                    Pays de tout le monde, ames de tous les gens, je vous invite a partager ce serveur et ce message sur les reseaux et, ainsi, célébrer de la meilleure facon qui soit, la juste valeur de Risitas..
+                    Merci a ceux le faisant, et ceux qui le feront. Merci a la vie qui nous a donné ce cadeau de pouvoir contempler la joie de vivre de Risitas ainsi que son rire. Merci a tous ceux présent. Merci.
+                    Et, je finirais par dire que même au printemps, il peut se passer d'horribles choses comme le decès d'un proche.
+                    Paix a son ame, paix a Risitas
+                </em>
+            </p>
+        </div>
+        <div>
+            <button onclick="play()">
+                ISSOU
+                <audio id="issou">
+                    <source src="images/issou.mp3" type="audio/mpeg">
+                </audio>
+            </button>
+            <script>
+                var audio = new Audio("images/issou.mp3")
+                function play(){
+                    audio.play()
+                }
+            </script>
+        </div>
+    </body>
+</html>
