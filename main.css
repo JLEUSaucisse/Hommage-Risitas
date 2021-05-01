@@ -1,20 +1,55 @@
 body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(14, 14, 14);
 }
-img{
-    size: 10px;
-    margin: center;
+div#header{
+    background-color: rgb(14, 14, 14);
+}
+img.kiri{
+    size: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
     border: black;
     border-radius: 2px;
 }
-img #quote{
-    size: 5px;
-    margin-left: 2px;
+img#quote{
+    size: 0.5px;
+    display:inherit;
+    margin-left: 0.2px;
 }
 em{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 0.2px;
     font-size: 7px;
-    color:rgb(92, 92, 92)
+    color:rgb(143, 143, 143)
 }
-em #discours{
+em#discours{
+    line-height: 0.2px;
     font-size: 4px;
+}
+h1{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto;
+}
+h5{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto;
+}
+br{
+    line-height: 1px;
+}
+div#texte{
+    background-color:rgb(48, 48, 48);
+}
+div#issou{
+    background-size: cover;
+    background-image: url("https://cdn.discordapp.com/attachments/837057170008309792/837379208661434409/cairiaitbienenbanniererisitaspaix.png");
+}
+fieldset{
+    max-width: 400px;
+    padding: 16px;
 }
